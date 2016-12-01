@@ -1,2 +1,2 @@
 # designProject
-Building the pomerleau.ca website from scratch as a learning experience
+Building the Wieners of Waterton website from scratch (based of the http://pomerleau.ca/ design) as a learning experience.
