@@ -1,0 +1,23 @@
+html {
+    font-size: 16px;
+}
+
+.outerShell {
+    position: relative;
+}
+
+.ham {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #000;
+    border: none;
+}
+
+.logo {
+    position: absolute;
+    width: 160px;
+    height: 80px;
+    background-color: #555;
+    border: none;
+}
