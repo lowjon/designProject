@@ -1,6 +1,8 @@
 
 html {
     font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
 }
 
 .outerShell {
@@ -29,8 +31,6 @@ html {
     border: none;
     left: 80px;
     color: #000;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,14 +50,13 @@ line-height: 18px;
   background-size: cover;
   background-position: left -23px top 0px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-content: flex-end;
-  align-content: space-around;
+  align-items: flex-end;
 
 
 }
 .lowerButtons-home{
+  padding-bottom: 30px;
 
 }
 .menu-button{
@@ -93,6 +92,8 @@ font-size: .8rem;
   color: #fff;
   border: 2.75px solid #fff;
   font-size: 1.1rem;
+  margin-left: -5px;
+
 }
 
 .wow-shirt{
