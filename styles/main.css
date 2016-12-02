@@ -1,9 +1,11 @@
+
 html {
     font-size: 16px;
 }
 
 .outerShell {
     position: relative;
+    display: flex;
 }
 
 .ham {
@@ -12,12 +14,88 @@ html {
     height: 80px;
     background-color: #000;
     border: none;
+    color: #fff;
+}
+.burger{
+
+
 }
 
 .logo {
     position: absolute;
     width: 160px;
     height: 80px;
-    background-color: #555;
+    background-color: #fff;
     border: none;
+    left: 80px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+.wien-cta{
+font-size: 1.1rem;
+text-align: center;
+line-height: 18px;
+
+}
+.topShell{
+  width: 100vw;
+  height: 100vh;
+  background: url("../img/wowShirt.jpg") center no-repeat;
+  background-size: cover;
+  background-position: left -23px top 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+  align-content: space-around;
+
+
+}
+.lowerButtons-home{
+
+}
+.menu-button{
+  width: 35vw;
+  height: 64px;
+  text-align: center;
+  background-color: transparent;
+  color: #fff;
+  border: 2.75px solid #fff;
+  font-size: 1.1rem;
+
+
+}
+.civil-button{
+text-transform: uppercase;
+width: 250px;
+height: 64px;
+padding: 10px 0 10px 0;
+margin-left: 450px;
+margin-top: 91px;
+background-color: transparent;
+text-align: center;
+font-weight: bold;
+color: #fff;
+border: 2.75px solid #fff;
+font-size: .8rem;
+}
+.merch-button{
+  width: 35vw;
+  height: 64px;
+  text-align: center;
+  background-color: transparent;
+  color: #fff;
+  border: 2.75px solid #fff;
+  font-size: 1.1rem;
+}
+
+.wow-shirt{
+  height: 100vh;
+
 }
